@@ -59,11 +59,11 @@ The other results suggest that there is no strong correlation between the humidi
 
 This part of the project uses the [cities.csv](https://github.com/dspataru/python-api-challenge/blob/main/WeatherPy/output_data/cities.csv) file generated from the [WeatherPy](https://github.com/dspataru/python-api-challenge/blob/main/WeatherPy/WeatherPy.ipynb) project to plan for future vacations. Below is an example of what an instance of the dataframe looks like:
 
-![cities df](https://github.com/dspataru/python-api-challenge/tree/main/WeatherPy/images/city_data_df.png)
+![cities df](https://github.com/dspataru/python-api-challenge/blob/main/WeatherPy/images/city_data_df.png)
 
 The [geoViews python library](https://pypi.org/project/geoviews/) and [Geoapify API](https://www.geoapify.com/) were used to create map visualizations. The map below displays a point for every city in the csv file. The size of each point is equal to the humidity in each city.
 
-![cities map](https://github.com/dspataru/python-api-challenge/tree/main/WeatherPy/images/city_map_plot.png)
+![cities map](https://github.com/dspataru/python-api-challenge/blob/main/WeatherPy/images/city_map_plot.png)
 
 Using a search criteria, the dataframe is narrowed down to cities with the ideal weather condition. For the purpose of this project, the following conditions were imposed on the dataframe:
 * Temperature in between 23-30 degrees
@@ -73,7 +73,7 @@ Using a search criteria, the dataframe is narrowed down to cities with the ideal
 
 Using this narrowed-down version of the dataframe, Geoapify API was used to find the first hotel located within 10,000 meters of the latitude and longitude coordinates of the cities. One instance of what the plot of the ideal weather cities looks like is shown below. The latitude, longitude, humidity, city name, hotel name, and country can be seen when hovering over the points on the map.
 
-![hotels map](https://github.com/dspataru/python-api-challenge/tree/main/WeatherPy/images/hotel_map_portland.png)
+![hotels map](https://github.com/dspataru/python-api-challenge/blob/main/WeatherPy/images/hotel_map_plot_portland.png)
 
 The VacationPy notebook helps find hotels for vacation spots that fit a search criteria.
 
